@@ -1,0 +1,32 @@
+body {
+    background-color:azure;
+}
+#containerForm {
+    display: flex;
+    top: 5rem;
+    left: 1rem;
+    box-shadow: 10px 5px 34px 6px #000000;
+    position: sticky !important;
+    width: 20.5%;
+    justify-content: center;
+    border-radius: 5px;
+    height: 10rem;
+    align-items: center;
+}
+#feedback {
+    position:absolute;
+        color: transparent;
+        text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+#chirpListItem {
+    border: 1px solid;
+}
+#timeLine {
+    position: relative;
+    left: 25rem;
+    bottom: 7rem;
+    width: 45em;
+    border: 1px solid;
+    box-shadow: 10px 5px 34px 6px #000000;
+
+}
